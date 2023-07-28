@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Geometric figures</title>
+        <link rel="stylesheet" href="style.css">  
+        <script src="App.js"></script>
+    </head>
+
+    <body>
+        <div class="App">
+
+            <header>
+                <h1>
+                    Paintier
+                </h1>
+            </header>
+
+            <div class="canvas">
+                <canvas id="painting" width="700" height="500"></canvas>
+                <canvas id="figure" width="700" height="500"></canvas>
+            </div>
+
+            <div id="check"></div>
+
+            <footer>
+                <div class="control_panel">
+                    <button onclick="clean_canvas('painting')">Clean</button>
+                    <button onclick="figure(); draw()">Play</button>
+                    <button onclick="check();">Check</button>
+                </div>
+            </footer>
+
+        </div>
+    </body>
+</html>

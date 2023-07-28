@@ -1,0 +1,65 @@
+body {
+	background: rgb(252, 242, 223);
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background: rgb(10, 167, 167);
+	color: white;
+	text-align: center;
+	line-height: 70px;
+}
+
+.canvas {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+canvas {
+	margin: 20px;
+	border-width: 5px;
+   	border-style: dashed;
+   	border-color: rgba(220, 64, 248, 0.5);
+}
+
+#painting {
+	position: absolute;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+.control_panel {
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	border-color: rgb(18, 135, 126);
+	font-size: large;
+	color: white;
+	background: rgb(10, 167, 167);
+}
+button:hover {background:rgb(91, 207, 207);}
+button:active {background:rgb(2, 139, 139);}
+
+#check {
+	position:absolute;
+	left: 50%;
+	top: 20%;
+    transform: translate(-50%, 0);
+	font-size: large;
+}
